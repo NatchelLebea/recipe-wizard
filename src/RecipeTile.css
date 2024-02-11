@@ -1,0 +1,81 @@
+.recipeTile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .recipeTile__img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .recipeTile__name {
+    max-width: 200px;
+    text-align: center;
+    margin: 12px 0px;
+    color: white;
+  }
+  
+  .recipeTile__button {
+    padding: 10px 20px;
+    font-size: 15px;
+    margin-top: 10px;
+    background-color: white;
+    border: 2px solid #02aff0;
+    border-radius: 4px;
+    color: #02aff0;
+    cursor: pointer;
+    margin-bottom: 10px; /* Add this line */
+  }
+  
+  .recipeTile__button:hover {
+    background-color: #02aff0;
+    border: 1px solid #02aff0;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px; /* Add this line */
+  }
+  
+  .modal {
+    display: ${(showModal) ? 'block' : 'none'};
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.7); /* White background with some transparency */
+    z-index: 1000; /* Ensure it's on top of other content */
+    overflow: auto;
+  }
+  
+  .modal-content {
+    background-color: white;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center; /* Center align the text */
+  }
+  
+  .close {
+    color: #888;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close:hover {
+    color: #000;
+  }
+  
