@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/recipe-wizard/static/css/main.b2b7f09c.css",
+    "main.js": "/recipe-wizard/static/js/main.87882c84.js",
+    "static/js/592.39172a9a.chunk.js": "/recipe-wizard/static/js/592.39172a9a.chunk.js",
+    "index.html": "/recipe-wizard/index.html",
+    "main.b2b7f09c.css.map": "/recipe-wizard/static/css/main.b2b7f09c.css.map",
+    "main.87882c84.js.map": "/recipe-wizard/static/js/main.87882c84.js.map",
+    "592.39172a9a.chunk.js.map": "/recipe-wizard/static/js/592.39172a9a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b2b7f09c.css",
+    "static/js/main.87882c84.js"
+  ]
+}
